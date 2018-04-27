@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * <pre>
  * ${table.remark}
- * hinge.${table.name}
+ * dap.${table.name}
  * </pre>
  *
  * @author ${author}

@@ -101,7 +101,7 @@ public class DatabaseViewIFrame extends BaseJInternalFrame {
         panel_conInfo.add(label);
 
         txt_host = new JTextField();
-        txt_host.setText("192.168.1.210");
+        txt_host.setText("192.168.1.215");
         panel_conInfo.add(txt_host);
         txt_host.setColumns(15);
 
@@ -117,7 +117,7 @@ public class DatabaseViewIFrame extends BaseJInternalFrame {
         panel_conInfo.add(label_2);
 
         txt_dbName = new JTextField();
-        txt_dbName.setText("hinge");
+        txt_dbName.setText("dap");
         panel_conInfo.add(txt_dbName);
         txt_dbName.setColumns(10);
 
@@ -125,7 +125,7 @@ public class DatabaseViewIFrame extends BaseJInternalFrame {
         panel_conInfo.add(label_3);
 
         txt_userName = new JTextField();
-        txt_userName.setText("root");
+        txt_userName.setText("dap");
         panel_conInfo.add(txt_userName);
         txt_userName.setColumns(12);
 
@@ -135,7 +135,7 @@ public class DatabaseViewIFrame extends BaseJInternalFrame {
         txt_pwd = new JPasswordField();
         txt_pwd.setColumns(12);
         panel_conInfo.add(txt_pwd);
-        txt_pwd.setText("root");
+        txt_pwd.setText("dap");
 
         JButton btn_connection = new JButton("连接");
         btn_connection.addActionListener(new ActionListener() {
